@@ -30,3 +30,27 @@
 1479239074878	mozprofile::profile	INFO	Using profile path C:\Users\armendja\AppData\Local\Temp\rust_mozprofile.7Zs6Loe9acVe
 1479239074890	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
 1479239074904	geckodriver::marionette	INFO	Connecting to Marionette on localhost:1184
+1479239747437	geckodriver	INFO	Listening on 127.0.0.1:1294
+1479239749436	mozprofile::profile	INFO	Using profile path C:\Users\armendja\AppData\Local\Temp\rust_mozprofile.INKrBHkpsZmC
+1479239749448	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479239749462	geckodriver::marionette	INFO	Connecting to Marionette on localhost:1302
+1479239783027	geckodriver	INFO	Listening on 127.0.0.1:1337
+1479239785029	mozprofile::profile	INFO	Using profile path C:\Users\armendja\AppData\Local\Temp\rust_mozprofile.lIIqjWSbe1Hf
+1479239785040	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479239785054	geckodriver::marionette	INFO	Connecting to Marionette on localhost:1346
+1479239810899	geckodriver	INFO	Listening on 127.0.0.1:1375
+1479239812900	mozprofile::profile	INFO	Using profile path C:\Users\armendja\AppData\Local\Temp\rust_mozprofile.q1Cg3hu9Lcq4
+1479239812912	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479239812927	geckodriver::marionette	INFO	Connecting to Marionette on localhost:1384
+1479239843673	geckodriver	INFO	Listening on 127.0.0.1:1428
+1479239845674	mozprofile::profile	INFO	Using profile path C:\Users\armendja\AppData\Local\Temp\rust_mozprofile.Uf1tTJHeDQKE
+1479239845685	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479239845700	geckodriver::marionette	INFO	Connecting to Marionette on localhost:1434
+1479239905173	geckodriver	INFO	Listening on 127.0.0.1:1483
+1479239907174	mozprofile::profile	INFO	Using profile path C:\Users\armendja\AppData\Local\Temp\rust_mozprofile.kPamuurt62SK
+1479239907185	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479239907199	geckodriver::marionette	INFO	Connecting to Marionette on localhost:1491
+1479239939618	geckodriver	INFO	Listening on 127.0.0.1:1533
+1479239941618	mozprofile::profile	INFO	Using profile path C:\Users\armendja\AppData\Local\Temp\rust_mozprofile.3IeWGpOabLUt
+1479239941630	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479239941644	geckodriver::marionette	INFO	Connecting to Marionette on localhost:1545
