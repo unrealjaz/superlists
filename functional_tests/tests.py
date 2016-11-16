@@ -58,10 +58,9 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox.send_keys('Use peacock feathers to make a fly')
         #time.sleep(1)
         inputbox.send_keys(Keys.ENTER)
-        time.sleep(1)
+        time.sleep(2)
         # The page updates again, and now shows both items on her list
-        self.check_for_row_in_list_table(
-            '2: Use peacock feathers to make a fly')
+        self.check_for_row_in_list_table('2: Use peacock feathers to make a fly')
         self.check_for_row_in_list_table('1: Buy peacock feathers')
 
         # Now a new user, Francis, comes along to the site.
