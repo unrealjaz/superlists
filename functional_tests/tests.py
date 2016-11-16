@@ -40,7 +40,7 @@ class NewVisitorTest(LiveServerTestCase):
         # is tying fly-fishing lures)
         inputbox.send_keys('Buy peacock feathers')
 
-        time.sleep(1)
+        #time.sleep(1)
 
         # When she hits enter, the page updates, and now the page lists
         # "1: Buy peacock feathers" as an item in a to-do list
@@ -56,18 +56,12 @@ class NewVisitorTest(LiveServerTestCase):
 
         inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('Use peacock feathers to make a fly')
-        time.sleep(1)
+        #time.sleep(1)
         inputbox.send_keys(Keys.ENTER)
         time.sleep(1)
         # The page updates again, and now shows both items on her list
         self.check_for_row_in_list_table(
             '2: Use peacock feathers to make a fly')
-        self.check_for_row_in_list_table('1: Buy peacock feathers')
-
-        # The page updates again, and now shows both items on her list
-        self.check_for_row_in_list_table(
-            '2: Use peacock feathers to make a fly')
-
         self.check_for_row_in_list_table('1: Buy peacock feathers')
 
         # Now a new user, Francis, comes along to the site.
@@ -91,6 +85,7 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('Buy milk')
         inputbox.send_keys(Keys.ENTER)
+        time.sleep(1)
 
         # Francis gets his own unique URL
         francis_list_url = self.browser.current_url
